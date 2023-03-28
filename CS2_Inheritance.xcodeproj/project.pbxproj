@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BAD3E2FD29D21447007E3446 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD3E2FC29D21447007E3446 /* main.cpp */; };
+		BAD3E30529D2146A007E3446 /* Mammal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD3E30329D21469007E3446 /* Mammal.cpp */; };
+		BAD3E30829D214D7007E3446 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD3E30629D214D7007E3446 /* Animal.cpp */; };
+		BAD3E30B29D21809007E3446 /* Reptile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD3E30929D21809007E3446 /* Reptile.cpp */; };
+		BAD3E30E29D221B0007E3446 /* Organ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD3E30C29D221B0007E3446 /* Organ.cpp */; };
+		BAD3E31129D22932007E3446 /* Squirell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD3E30F29D22932007E3446 /* Squirell.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		BAD3E2F929D21447007E3446 /* CS2_Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CS2_Inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD3E2FC29D21447007E3446 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BAD3E30329D21469007E3446 /* Mammal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mammal.cpp; sourceTree = "<group>"; };
+		BAD3E30429D2146A007E3446 /* Mammal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mammal.hpp; sourceTree = "<group>"; };
+		BAD3E30629D214D7007E3446 /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		BAD3E30729D214D7007E3446 /* Animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
+		BAD3E30929D21809007E3446 /* Reptile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reptile.cpp; sourceTree = "<group>"; };
+		BAD3E30A29D21809007E3446 /* Reptile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reptile.hpp; sourceTree = "<group>"; };
+		BAD3E30C29D221B0007E3446 /* Organ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Organ.cpp; sourceTree = "<group>"; };
+		BAD3E30D29D221B0007E3446 /* Organ.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Organ.hpp; sourceTree = "<group>"; };
+		BAD3E30F29D22932007E3446 /* Squirell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Squirell.cpp; sourceTree = "<group>"; };
+		BAD3E31029D22932007E3446 /* Squirell.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Squirell.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				BAD3E2FC29D21447007E3446 /* main.cpp */,
+				BAD3E30F29D22932007E3446 /* Squirell.cpp */,
+				BAD3E31029D22932007E3446 /* Squirell.hpp */,
+				BAD3E30929D21809007E3446 /* Reptile.cpp */,
+				BAD3E30C29D221B0007E3446 /* Organ.cpp */,
+				BAD3E30D29D221B0007E3446 /* Organ.hpp */,
+				BAD3E30A29D21809007E3446 /* Reptile.hpp */,
+				BAD3E30329D21469007E3446 /* Mammal.cpp */,
+				BAD3E30429D2146A007E3446 /* Mammal.hpp */,
+				BAD3E30629D214D7007E3446 /* Animal.cpp */,
+				BAD3E30729D214D7007E3446 /* Animal.hpp */,
 			);
 			path = CS2_Inheritance;
 			sourceTree = "<group>";
@@ -119,7 +144,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD3E30529D2146A007E3446 /* Mammal.cpp in Sources */,
+				BAD3E30B29D21809007E3446 /* Reptile.cpp in Sources */,
+				BAD3E31129D22932007E3446 /* Squirell.cpp in Sources */,
+				BAD3E30E29D221B0007E3446 /* Organ.cpp in Sources */,
 				BAD3E2FD29D21447007E3446 /* main.cpp in Sources */,
+				BAD3E30829D214D7007E3446 /* Animal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
